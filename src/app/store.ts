@@ -1,4 +1,5 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
+import Filter from "../components/Filter";
 
 export const store = configureStore({
   reducer: {},
